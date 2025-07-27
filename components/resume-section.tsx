@@ -7,7 +7,7 @@ import { Download, FileText } from "lucide-react"
 export function ResumeSection() {
   const handleDownload = () => {
     // In a real application, this would trigger a download of the actual resume file
-    alert("Resume download would start here. Please add your actual resume file.")
+    alert("Click Here To confirm")
   }
 
   return (
@@ -31,11 +31,17 @@ export function ResumeSection() {
 
           <CardContent className="space-y-6">
             <div className="text-center">
-              <Button size="lg" onClick={handleDownload} className="w-full sm:w-auto">
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume (PDF)
-              </Button>
-            </div>
+  <a
+    href="/waquasahmadResume.pdf"
+    download
+    className="w-full sm:w-auto inline-block"
+  >
+    <Button size="lg" className="w-full sm:w-auto">
+      <Download className="mr-2 h-5 w-5" />
+      Download Resume (PDF)
+    </Button>
+  </a>
+</div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t">
               <div className="text-center">
