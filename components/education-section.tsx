@@ -6,7 +6,7 @@ const education = [
     degree: "Master of Computer Applications (MCA)",
     institution: "Netaji Subhas University",
     period: "2023 – 2025",
-    status: "Currently Pursuing",
+    status: "Completed",
     description:
       "Focusing on advanced computer science concepts, software development, and emerging technologies. Gaining expertise in system design, database management, and modern programming paradigms.",
   },

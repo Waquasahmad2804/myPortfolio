@@ -5,19 +5,20 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "Online Voting Portal",
-    description:
-      "A comprehensive voting system built with PHP and Bootstrap, featuring secure voter registration, real-time vote counting, and mobile-responsive design. Includes admin dashboard for election management and voter verification.",
-    techStack: ["PHP", "Bootstrap", "MySQL", "JavaScript", "HTML/CSS"],
-    features: [
-      "Voter registration system",
-      "Real-time vote counting",
-      "Mobile-responsive design",
-      "Admin dashboard",
-      "Secure authentication",
-    ],
-    image: "/placeholder.svg?height=200&width=400",
-  },
+  title: "Plant Maintenance ERP System",
+  description:
+    "A robust ERP solution developed for managing tank cleaning records, lubricant usage, and machine servicing across multiple plants. The system streamlines operations with modules for data entry, reporting, user roles, and plant-wise segregation. Designed for efficiency, compliance tracking, and integration with plant maintenance workflows.",
+  techStack: ["Laravel", "MySQL", "JavaScript", "Blade", "HTML/CSS"],
+  features: [
+    "Tank cleaning data management",
+    "Lubricant and oil usage tracking",
+    "Machine maintenance history logging",
+    "Multi-plant support with user roles",
+    "Dynamic reporting and analytics dashboard",
+  ],
+  image: "/sa.png?height=200&width=400",
+},
+
   {
     title: "E-Learning Platform",
     description:
@@ -32,7 +33,7 @@ const projects = [
       "Course progress tracking",
       "Revenue system for instructors",
     ],
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/2.png?height=200&width=400",
   },
 ]
 
@@ -84,7 +85,7 @@ export function ProjectsSection() {
                     </ul>
                   </div>
 
-                  <div className="flex gap-2 pt-4">
+                  {/* <div className="flex gap-2 pt-4">
                     <Button variant="outline" size="sm" className="flex-1 bg-transparent">
                       <Github className="mr-2 h-4 w-4" />
                       GitHub
@@ -93,7 +94,7 @@ export function ProjectsSection() {
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Live Demo
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
