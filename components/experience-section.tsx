@@ -6,7 +6,7 @@ const experiences = [
   {
     title: "Laravel Developer",
     company: "Venturing Digitallt Pvt Ltd",
-    location: "Remote",
+    location: "On-Site",
     period: "May 2025 – Present",
     type: "Full-time",
     description:
