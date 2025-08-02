@@ -32,7 +32,7 @@ export function ResumeSection() {
           <CardContent className="space-y-6">
             <div className="text-center">
   <a
-    href="/waquasahmadResume.pdf"
+    href="/waquasResumeBackend.pdf"
     download
     className="w-full sm:w-auto inline-block"
   >

@@ -15,7 +15,7 @@ export function AboutSection() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            Currently pursuing my{" "}
+            Completed my{" "}
             <span className="text-primary font-semibold">Master of Computer Applications (MCA)</span> at Netaji Subhas
             University (2023–2025), I have gained valuable hands-on experience through my internship and professional
             work with Laravel-based applications.
